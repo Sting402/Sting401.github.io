@@ -1,5 +1,5 @@
 <?php
-  $to = "sw4work@seancv2018.com"; 
+  $to = "steven19930326@gmail.com"; 
   $subject = $_POST['subject']; 
   $message = $_POST['message'];
   $headers = "From: ".$_POST['name']."<".$_POST['email'].">"; 
