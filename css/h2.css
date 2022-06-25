@@ -1,0 +1,33 @@
+h2::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h2:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  h2::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: rgba(153, 221, 255, 0.595);
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+  h2 {
+    position: relative;
+    font-size: 5rem;
+    }
+  
+  
+  /* @media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+} */
+    
