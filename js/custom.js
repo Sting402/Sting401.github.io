@@ -62,9 +62,9 @@
   });
 
   // Testimonials Slider
-  $('.bxslider').bxSlider({
-    adaptiveHeight: true,
-    mode: 'fade'
-  });
+  // $('.bxslider').bxSlider({
+  //   adaptiveHeight: true,
+  //   mode: 'fade'
+  // });
 
 })(jQuery);
