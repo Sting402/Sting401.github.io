@@ -12,9 +12,17 @@
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="../css/Waterfall.css">
+  <link rel="stylesheet" href="css/h2.css">
+<link rel="stylesheet" href="../Exrternal/fontawesome-free-6.1.1-web/css/all.min.css">
+<link rel="stylesheet" href="../content.builder.json">
   
 
 </head>
+
+
+<!--ＮavBar-->
+
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="0">
   <div class="header">
@@ -23,11 +31,6 @@
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
-              <!-- <button type="button" class="navbar-toggle" data-toggle="collapse" >
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button> -->
               <a class="navbar-brand" href="#">吳紹雍</a>
             </div>
             <div class="collapse navbar-collapse" id="lauraMenu">
@@ -38,15 +41,9 @@
                 <li>
                   <a href="#about">關於我</a>
                 </li>
-                <!-- <li>
-                  <a href="#portfolio">圖片分享</a>
-                </li> -->
-                <!-- <li>
-                  <a href="#testimonial">Testimonial</a>
-                </li>
                 <li>
-                  <a href="#me-add">me add</a>
-                </li> -->
+                  <a href="#portfolio">圖片分享</a>
+                </li>
                 <li>
                   <a href="#contact">與我聯絡</a>
                 </li>
@@ -76,6 +73,9 @@
       </div>
     </div>
   </div>
+
+<!--關於我-->
+
   <section id="about" class="section-padding wow fadeIn delay-05s">
     <div class="container">
       <div class="row">
@@ -170,100 +170,50 @@
       </div>
     </div>
   </section>
-  <!-- <section id="portfolio" class="section-padding wow fadeIn delay-05s">
+
+
+
+
+  <!--圖片分享-->
+
+  <section id="portfolio" class="section-padding wow fadeIn delay-05s">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <h2 class="title text-center">圖片分享</h2>
+        <div class="col-md-3">
+          <h2 class="title-text">
+            <span class="deco">
+              <h2>圖片分享</h2>
+            </span>
+          </h2>
         </div>
-        <div class="col-md-12">
-          <div id="myGrid" class="grid-padding">
-            <div class="col-md-4 col-sm-4 padding-right-zero">
-              <img src="img/36948582_2576391495719969_7986698081565409280_n.jpg" class="img-responsive">
-              <img src="img/IMG_5033.jpg" class="img-responsive">
-
+        <div class="col-md-9 text-left">
+          <div class="masonry">
+            <div class="grid js-masonry">
+              
+              <figure class="portitem">
+                 <img title="Image 3" class="thumbnail img-responsive" src="../img/S__3768408.jpg">
+                </a>
+              </figure>
+              <figure class="portitem"><a href="#"><img title="Image 4" class="thumbnail img-responsive" src="../img/S__3768407.jpg"></a></figure>
+              <figure class="portitem"><a href="#"><img title="Image 5" class="thumbnail img-responsive" src="../img/S__3768409.jpg"></a></figure>
+              <figure class="portitem"><a href="#"><img title="Image 6" class="thumbnail img-responsive" src="../img/S__3768410.jpg"></a></figure>
+              <figure class="portitem"><a href="#"><img title="Image 8" class="thumbnail img-responsive" src="../img/S__3768411.jpg"></a></figure>
+              <figure class="portitem"><a href="#"><img title="Image 9" class="thumbnail img-responsive" src="../img/S__3768404.jpg"></a></figure>
+              <figure class="portitem "><a href="#"><img title="Image 11" class="thumbnail img-responsive" src="../img/S__3768412.jpg"></a></figure>
+              
             </div>
-            <div class="col-md-4 col-sm-4 padding-right-zero">
-               <img src="img/IMG_5051.jpg" class="img-responsive"> 
-              <img src="img/IMG_5052.jpg" class="img-responsive">
-              <img src="img/5304.jpg" class="img-responsive">
-              <img src="img/5303.jpg" class="img-responsive">
-
-            </div>
-            <div class="col-md-4 col-sm-4 padding-right-zero">
-              <img src="img/5300.jpg" class="img-responsive">
-              <img src="img/5301.jpg" class="img-responsive">
-              <img src="img/5302.jpg" class="img-responsive">
-
-
-            </div>
+        
           </div>
+  
+
+
         </div>
       </div>
     </div>
-  </section> -->
-  <!-- <section id="testimonial" class="section-padding wow fadeIn">
-    <div class="container">
-      <div class="row">
-        <h2 class="title text-center">See What Our
-          <span class="deco">Client Are Saying ?</span>
-        </h2>
-        <div class="test-sec">
-          <div class="col-sm-3">
-            <blockquote>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh
-                ante facilisis bibendum dolor feugiat at. </p>
-            </blockquote>
-            <div class="carousel-info">
-              <div class="pull-left">
-                <span class="testimonials-name">Sarah</span>
-                <span class="testimonials-post">CEO, Company Inc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <blockquote>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh
-                ante facilisis bibendum dolor feugiat at. </p>
-            </blockquote>
-            <div class="carousel-info">
-              <div class="pull-left">
-                <span class="testimonials-name">Sarah</span>
-                <span class="testimonials-post">CEO, Company Inc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <blockquote>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh
-                ante facilisis bibendum dolor feugiat at. </p>
-            </blockquote>
-            <div class="carousel-info">
-              <div class="pull-left">
-                <span class="testimonials-name">Sarah</span>
-                <span class="testimonials-post">CEO, Company Inc.</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <blockquote>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamsed commodo nibh
-                ante facilisis bibendum dolor feugiat at. </p>
-            </blockquote>
-            <div class="carousel-info">
-              <div class="pull-left">
-                <span class="testimonials-name">Sarah</span>
-                <span class="testimonials-post">CEO, Company Inc.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> 
+  </section>
 
-
-  <section id="me-add" class="section-padding wow fadeInUp">
+<!--測試區域-新增-->
+  <!-- <section id="me-add" class="section-padding wow fadeInUp">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -275,10 +225,7 @@
         </div>
       </div>
     </div>
-  </section> -->
-
-
-
+  </section>  -->
 
  <!-- 留言區塊 -->
   <section id="contact" class="section-padding wow fadeInUp delay-05s">
@@ -289,7 +236,7 @@
             <!-- <div id="smtp-banner">
               <h3>SMTP doesn't work right now!!</h3>
             </div> -->
-            <h2>有話想對我說?</h2>
+            <h1>有話想對我說?</h1>
               <p><font color="#575151">別害羞，盡管與我聯繫</font></p>
           </div>
         </div>
@@ -329,6 +276,8 @@
           </div>
         </div>
       </div>
+      
+      <!--動畫按鈕-->
       <div class="form-group text-center">
         <button class="btn btn-primary" type="submit" value="Send message">傳送</button>
       </div>
@@ -382,11 +331,13 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <!-- <script src="js/jquery.bxslider.min.js"></script> -->
   <script src="js/wow.js"></script>
+  <script src="js/carousel.js"></script>
   <script src="js/custom.js"></script>
   <!-- <script src="contactform/contactform.js"></script> -->
   <script src="js/typed.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+
 
 </body>
 

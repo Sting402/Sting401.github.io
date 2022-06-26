@@ -10,6 +10,9 @@ body {
   font-weight: 400;
 }
 
+.h1{
+  color: #eee;
+}
 ol, ul {
   list-style: none;
 }
@@ -145,6 +148,11 @@ Responsive media queries
   margin-bottom: -3px;
 }
 
+#portfolio {
+  background-color: #98dece;
+  margin-bottom: -3px;
+}
+
 .section-padding {
   padding: 60px 0px;
 }
@@ -257,14 +265,14 @@ blockquote {
 /* 11 */
 #contact .btn-primary {
   border: none;
-  background: rgb(251,33,117);
-    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+  background: rgb(53, 184, 235);
+    background: linear-gradient(0deg, rgba(53, 184, 235,1) 0%, rgba(53, 184, 235,1) 100%);
     color: #fff;
     overflow: hidden;
 }
 #contact .btn-primary:hover {
     text-decoration: none;
-    color: #fff;
+    color: rgb(93, 90, 239);
 }
 #contact .btn-primary:before {
     position: absolute;
@@ -477,4 +485,5 @@ Responsive media queries
   .title-text {
     margin-bottom: 15px;
   }
+  /* <!--caruosel--> */
 }
