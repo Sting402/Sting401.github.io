@@ -47,7 +47,7 @@ Responsive media queries
 ***********************************/
 
 .header {
-  background: url('../img/530501.jpg') no-repeat fixed;
+  background: url('https://wallpaperaccess.com/full/1840492.jpg') no-repeat;
   background-size: 100% 100%;
   min-height: 630px;
   position: relative;
@@ -148,8 +148,8 @@ Responsive media queries
   margin-bottom: -3px;
 }
 
-#portfolio {
-  background-color: #98dece;
+#introduction {
+  background-color: #f4f9f4;
   margin-bottom: -3px;
 }
 
@@ -179,7 +179,9 @@ Responsive media queries
 }
 
 #portfolio {
-  background-color: #f4f9f4;
+  background-color: #e3f0aeaf;
+  margin-bottom: -3px;
+
 }
 
 #me-add{
@@ -485,5 +487,4 @@ Responsive media queries
   .title-text {
     margin-bottom: 15px;
   }
-  /* <!--caruosel--> */
 }
